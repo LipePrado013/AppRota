@@ -7,13 +7,13 @@ function Home() {
 
     const cardsData = [
         {
-            imageSrc: '/src/assets/img/museuCafe.jpg',
+            imageSrc: 'assets/img/museuCafe.jpg',
             title: 'Museu do Café',
             description: 'O Museu do Café é referência por contar a trajetória do grão no Brasil e no mundo. Suas exposições abordam detalhes que vão desde o plantio até a xícara, passando pelo mercado e curiosidades do grão.',
             href: '/MuseuCafe'
         },
         {
-            imageSrc: '/src/assets/img/museuPesca.jpg',
+            imageSrc: 'assets/img/museuPesca.jpg',
             title: 'Museu da Pesca',
             description: 'O Museu de Pesca tem finalidades culturais e objetiva a divulgação de conhecimentos originados do estudo do ambiente aquático e da tecnologia aplicada para a exploração racional de recursos marinhos e de águas continentais.',
             href: '/MuseuPesca',
@@ -23,13 +23,13 @@ function Home() {
 
     const slideData = [
         {
-            imageSrc: '/src/assets/img/museuCafe.jpg',
+            imageSrc: 'assets/img/museuCafe.jpg',
             title: 'Museu do Café',
             description: 'O Museu do Café é referência por contar a trajetória do grão no Brasil e no mundo. Suas exposições abordam detalhes que vão desde o plantio até a xícara, passando pelo mercado e curiosidades do grão.',
             href: '/MuseuCafe'
         },
         {
-            imageSrc: '/src/assets/img/museuPesca.jpg',
+            imageSrc: 'assets/img/museuPesca.jpg',
             title: 'Museu da Pesca',
             description: 'O Museu de Pesca tem finalidades culturais e objetiva a divulgação de conhecimentos originados do estudo do ambiente aquático e da tecnologia aplicada para a exploração racional de recursos marinhos e de águas continentais.',
             href: '/MuseuPesca',
@@ -43,7 +43,7 @@ function Home() {
             <Header />
 
             <div className="flex justify-center mt-5">
-                <img src="src/assets/img/logo-rota-deitado1.png" width={'150rem'} />
+                <img src="assets/img/logo-rota-deitado1.png" width={'150rem'} />
             </div>
 
 

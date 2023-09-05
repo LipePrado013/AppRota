@@ -7,9 +7,9 @@ import Header from "../components/Header"
 function MuseuPesca() {
 
     const slideFotosData = [
-        { imageSrc: '/src/assets/img/museuPesca/foto1.jpeg' },
-        { imageSrc: '/src/assets/img/museuPesca/foto2.jpg' },
-        { imageSrc: '/src/assets/img/museuPesca/foto3.jpg' },
+        { imageSrc: 'assets/img/museuPesca/foto1.jpeg' },
+        { imageSrc: 'assets/img/museuPesca/foto2.jpg' },
+        { imageSrc: 'assets/img/museuPesca/foto3.jpg' },
     ];
 
     return (

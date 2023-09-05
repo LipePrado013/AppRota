@@ -4,9 +4,9 @@ import Header from "../components/Header"
 function MuseuCafe() {
 
     const slideFotosData = [
-        { imageSrc: '/src/assets/img/museuCafe/fotocafe1.png' },
-        { imageSrc: '/src/assets/img/museuCafe/fotocafe2.png' },
-        { imageSrc: '/src/assets/img/museuCafe/fotocafe3.png' },
+        { imageSrc: 'assets/img/museuCafe/fotocafe1.png' },
+        { imageSrc: 'assets/img/museuCafe/fotocafe2.png' },
+        { imageSrc: 'assets/img/museuCafe/fotocafe3.png' },
     ];
 
     return (
