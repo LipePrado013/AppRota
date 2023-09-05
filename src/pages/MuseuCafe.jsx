@@ -1,12 +1,15 @@
 import SlideFotos from "../components/SlideFotos"
 import Header from "../components/Header"
+import imgCafe1 from 'assets/img/museuCafe/fotocafe1.png'
+import imgCafe2 from 'assets/img/museuCafe/fotocafe2.png'
+import imgCafe3 from 'assets/img/museuCafe/fotocafe3.png'
 
 function MuseuCafe() {
 
     const slideFotosData = [
-        { imageSrc: 'assets/img/museuCafe/fotocafe1.png' },
-        { imageSrc: 'assets/img/museuCafe/fotocafe2.png' },
-        { imageSrc: 'assets/img/museuCafe/fotocafe3.png' },
+        { imageSrc: { imgCafe1 } },
+        { imageSrc: { imgCafe2 } },
+        { imageSrc: { imgCafe3 } },
     ];
 
     return (
