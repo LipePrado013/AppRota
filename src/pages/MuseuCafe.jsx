@@ -1,15 +1,12 @@
 import SlideFotos from "../components/SlideFotos"
 import Header from "../components/Header"
-import imgCafe1 from 'assets/img/museuCafe/fotocafe1.png'
-import imgCafe2 from 'assets/img/museuCafe/fotocafe2.png'
-import imgCafe3 from 'assets/img/museuCafe/fotocafe3.png'
 
 function MuseuCafe() {
 
     const slideFotosData = [
-        { imageSrc: { imgCafe1 } },
-        { imageSrc: { imgCafe2 } },
-        { imageSrc: { imgCafe3 } },
+        { imageSrc: '/src/assets/img/museuCafe/fotocafe1.png' },
+        { imageSrc: '/src/assets/img/museuCafe/fotocafe2.png' },
+        { imageSrc: '/src/assets/img/museuCafe/fotocafe3.png' },
     ];
 
     return (
@@ -21,7 +18,7 @@ function MuseuCafe() {
                 <div className="text-purple-800 flex justify-center pt-5">
                     <h1 className="text-xl font-bold">MUSEU DO CAFÉ</h1>
                 </div>
-                <div className="text-purple-800 flex flex-col items-center">
+                <div className="text-purple-800 flex flex-col items-center gap-5">
                     <p className="text-xl font-bold">SOBRE LOCAL</p>
                     <p className=" text-lg text-justify w-10/12">
                         O Museu do Café é referência por contar a trajetória do grão no Brasil e no mundo. Suas exposições abordam detalhes que vão desde o plantio até a xícara, passando pelo mercado e curiosidades do grão.

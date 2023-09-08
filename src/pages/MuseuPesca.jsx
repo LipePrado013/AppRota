@@ -7,20 +7,20 @@ import Header from "../components/Header"
 function MuseuPesca() {
 
     const slideFotosData = [
-        { imageSrc: 'assets/img/museuPesca/foto1.jpeg' },
-        { imageSrc: 'assets/img/museuPesca/foto2.jpg' },
-        { imageSrc: 'assets/img/museuPesca/foto3.jpg' },
+        { imageSrc: '/src/assets/img/museuPesca/foto1.jpeg' },
+        { imageSrc: '/src/assets/img/museuPesca/foto2.jpg' },
+        { imageSrc: '/src/assets/img/museuPesca/foto3.jpg' },
     ];
 
     return (
         <>
             <Header />
-            <div className="w-full h-auto flex flex-col items-center gap-6 relative pb-20">
+            <div className="w-full h-auto flex flex-col items-center gap-6 relative pb-14">
 
                 <div className="text-purple-800 flex justify-center pt-5">
                     <h1 className="text-xl font-bold">MUSEU DA PESCA</h1>
                 </div>
-                <div className="text-purple-800 flex flex-col items-center">
+                <div className="text-purple-800 flex flex-col items-center gap-5">
                     <p className="text-xl font-bold">SOBRE LOCAL</p>
                     <p className=" text-lg text-justify w-10/12">
                         O Museu de Pesca tem finalidades culturais e objetiva a divulgação de conhecimentos originados do estudo do ambiente aquático e da tecnologia aplicada para a exploração racional de recursos marinhos e de águas continentais.
